@@ -41,7 +41,7 @@
     "tape": "^5.6.1"
   },
   "dependencies": {
-    "@noble/hashes": "^1.1.5",
+    "@noble/hashes": "1.1.2",
     "@noble/secp256k1": "^1.7.1"
   }
 }
