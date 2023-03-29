@@ -10,10 +10,11 @@ on:
 
 jobs:
   publish:
-    uses: Lattice-Trade/membrane-github-template-actions/.github/workflows/typescript-publish-package.v1.yml@main
+    uses: Lattice-Trade/membrane-public-github-actions/.github/workflows/typescript-publish-package.v1.yml@main
     with:
       NODE_VERSION: 14.x
       HAS_UNIT_TEST: false
       IS_RELEASE_CANDIDATE: true
       USE_PAT: true
+      WORKING_DIR: .
     secrets: inherit
