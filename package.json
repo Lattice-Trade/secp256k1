@@ -39,6 +39,7 @@
     "tape": "^5.6.1"
   },
   "dependencies": {
+    "@babel/core": "^7.21.3",
     "@noble/hashes": "1.1.2",
     "@noble/secp256k1": "^1.7.1",
     "rollup": "^3.9.1",
