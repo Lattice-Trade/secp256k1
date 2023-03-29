@@ -15,6 +15,7 @@ jobs:
       NODE_VERSION: 14.x
       HAS_UNIT_TEST: false
       IS_RELEASE_CANDIDATE: true
+      USE_JS: true
       USE_PAT: true
       WORKING_DIR: .
     secrets: inherit
