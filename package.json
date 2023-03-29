@@ -12,9 +12,12 @@
     "lint": "echo \"no lint\" ",
     "example": "npx babel-node --plugins @babel/plugin-transform-modules-commonjs ./example.js"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Lattice-Trade"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bitcoinerlab/secp256k1.git"
+    "url": "git+https://github.com/Lattice-Trade/secp256k1.git"
   },
   "keywords": [
     "secp256k1",
